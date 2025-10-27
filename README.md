@@ -9,7 +9,7 @@ Simplest way to install `parse2-kmz` is to use [npm](http://npmjs.org), just `np
 # Usage
 
 ```javascript
-const parseKMZ = require("parse2-kmz");
+import parseKmz from 'parse2-kmz';
 // KMZ To KML From URL
 parseKMZ
   .toKML("http://iblogbox.github.io/js/gpx/sample/Tour_de_France.kmz")
